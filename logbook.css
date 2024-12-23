@@ -1,0 +1,9 @@
+.container{
+  display: flex; /* Use flexbox to arrange videos horizontally */
+  justify-content: space-between; /* Add space between videos */
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}

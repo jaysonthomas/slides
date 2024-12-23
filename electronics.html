@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>CV</title>
+  <meta name="CV" content="text/html; charset=utf-8;" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+  <link rel="stylesheet" type="text/css" href="logbook.css" />
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+  <h2>Topics</h2>
+  <ol>
+    <li><a href="#1">Motor controller introduction</a></li>
+    <ul>
+      <li>Generating the current</li>
+      <li>Angle sensing</li>
+    </ul>
+
+    <li><a href="#2">Use case</a></li>
+    <ul>
+      <li>Trajectory generation</li>
+      <li>Position control</li>
+      <li>Communication link and frequencies</li>
+    </ul>
+  </ol>
+</section>
+
+<section id="6"><h2>Ocado</h2>
+  <div class="container">
+    <figure>
+      <img style="height:500px; width:auto"
+      src="figures/cv/2a_ocadoXY.jpg"/>
+    </figure>
+
+    <figure>
+      <video style="height:500px; width:auto"  
+        src="figures/cv/2b_ocadoHoist.mp4" 
+        data-autoplay controls>
+      </video>
+    </figure>
+  </div>
+</section>
+
+<section id="1"><h3>Renishaw</h3>
+  <div class="container">
+    <figure>
+      <img style="height:500px; width:auto"
+      src="figures/cv/1a_renishawLabSetup.png"/>
+    </figure>
+    <figure>
+      <img style="height:300px; width:auto"
+      src="figures/cv/1_renishawThicknessProbe.png"/>
+    </figure>
+  </div>
+</section>
+
+<section id="2"><h3>Dyson</h3>
+  <div class="img-container">
+    <figure>
+      <video style="height:200px; width:auto"  
+        src="../figures/bio/9_botTest.mp4" 
+        data-autoplay controls>
+      </video>
+    </figure>
+  </div>
+
+  <div class="container">
+    <figure>
+      <img style="height:auto; width:auto"
+      src="figures/cv/6_parcelDeliverySystem.jpg"/>
+    </figure>
+
+    <figure>
+      <img style="height:auto; width:auto"
+      src="figures/cv/7_parcelDeliverySystem.jpg"/>
+    </figure>
+  </div>
+</section>
+
+<section id="3"><h3>Dyson</h3>
+  <div class="container">
+    <figure>
+      <img style="height:300px; width:auto"
+      src="figures/cv/1_motorDriveGearAssembly.jpg"/>
+    </figure>
+
+    <figure>
+      <img style="height:300px; width:auto"
+      src="figures/cv/2_motorDriveGearAssemblyZoomedOut.jpg"/>
+    </figure>
+    <figure>
+      <img style="height:300px; width:auto"
+      src="figures/cv/4_wheelsWith3dPrintedBeltToothGear.jpg"/>
+    </figure>
+  </div>
+</section>
+
+<section id="4"><h3>AFE</h3>
+  <div class="img-container">
+    <figure>
+      <img style="height:400px; width:auto"
+      src="figures/cv/3_interrogator_finishedProduct.jpg"/>
+    </figure>
+  </div>
+</section>
+
+<section id="5"><h3>AFE</h3>
+  <div class="container">
+    <figure>
+      <img style="height:400px; width:auto"
+      src="figures/cv/1_interrogator_initialStages.jpg"/>
+    </figure>
+
+    <figure>
+      <img style="height:400px; width:auto"
+      src="figures/cv/2_interrogator_insideBox.jpg"/>
+    </figure>
+  </div>
+</section>
+
+<section id="7"><h3>University</h3>
+  <div class="img-container">
+    <figure>
+      <img style="height:auto; width:800px"
+      src="figures/cv/5a_uniParticleFilterSim.png"/>
+    </figure>
+
+    <figure>
+      <video style="height:200px; width:auto"  
+        src="figures/cv/5b_uniParticleFilterReal.mp4" 
+        data-autoplay controls>
+      </video>
+    </figure>
+  </div>
+</section>
+
+<section id="8"><h3>Spare Time</h3>
+  <div class="container">
+    <figure>
+      <video style="height:500px; width:auto"  
+        src="figures/cv/6a_hobbyImu.mp4" 
+        data-autoplay controls>
+      </video>
+    </figure>
+
+    <figure>
+      <video style="height:500px; width:auto"  
+        src="figures/cv/6b_hobbySegway.mp4" 
+        data-autoplay controls>
+      </video>
+    </figure>
+  </div>
+</section>
+
+<section id="9"><h3>DIY</h3>
+  <div class="container">
+    <figure>
+      <img style="height:auto; width:300px"
+      src="figures/cv/7a_diyAtticWorkArea.jpg"/>
+    </figure>
+
+    <figure>
+      <img style="height:300px; width:auto"
+      src="figures/cv/7b_diyAtticEarlyStages.jpg"/>
+    </figure>
+  </div>
+</section>
+</div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/search/search.js"></script>
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    center: true,
+    hash: true,
+    autoPlayMedia: false,
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+  });
+</script>
+</body>
+</html>
